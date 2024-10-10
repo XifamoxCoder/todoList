@@ -1,0 +1,24 @@
+.editButton,
+.deleteButton,
+.saveButton,
+.cancelButton {
+	background: none;
+	border: none;
+	cursor: pointer;
+	background-color: #4285f4;
+	width: 30px;
+	height: 30px;
+	border-radius: 5px;
+}
+
+.deleteButton {
+	background-color: #db4437;
+}
+
+.saveButton {
+	background-color: rgb(70, 190, 70);
+}
+
+.cancelButton {
+	background-color: #db4437;
+}
