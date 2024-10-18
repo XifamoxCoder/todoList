@@ -1,0 +1,38 @@
+.addTodo__input {
+	width: 100%;
+	max-width: 300px;
+	padding: 10px;
+	border: none;
+	border-bottom: 1px solid gray;
+	font-size: 12px;
+}
+
+.errorInput {
+	width: 100%;
+	max-width: 300px;
+	padding: 10px;
+	border: none;
+	border-bottom: 1px solid red;
+	font-size: 12px;
+}
+
+.addTodo {
+	display: flex;
+	justify-content: center;
+	gap: 12px;
+}
+
+.addTodo__btn {
+	padding: 10px 40px;
+	background-color: #4285f4;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+
+	&__hover {
+		background-color: #357ae8;
+	}
+}
