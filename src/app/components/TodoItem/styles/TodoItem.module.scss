@@ -1,0 +1,86 @@
+.todoItem {
+	display: flex;
+	width: 370px;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	background-color: white;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	margin-bottom: 10px;
+}
+
+.todoItem__checkboxLabel {
+	display: flex;
+	align-items: center;
+	font-family: "Roboto", sans-serif;
+	flex-grow: 1;
+}
+
+.todoItem__checkbox {
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.completed {
+	text-decoration: line-through;
+	color: grey;
+}
+
+.todoItem__title {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	max-width: 180px;
+}
+
+.todoItem__input {
+	outline: none;
+	border: none;
+	font-family: "Roboto", sans-serif;
+	width: 180px;
+	padding: 5px;
+	height: 19px;
+	border-bottom: 1px solid gray;
+}
+
+.errorInput {
+	outline: none;
+	border: none;
+	font-family: "Roboto", sans-serif;
+	width: 180px;
+	padding: 5px;
+	height: 19px;
+	border-bottom: 1px solid red;
+}
+
+.todoItem__action {
+	display: flex;
+	gap: 10px;
+	flex-shrink: 0;
+}
+
+.todoItem__actionEdit,
+.todoItem__actionDelete,
+.todoItem__actionCancel,
+.todoItem__actionSave {
+	background: none;
+	border: none;
+	cursor: pointer;
+}
+
+.todoItem__actionEdit svg {
+	fill: #4285f4;
+}
+
+.todoItem__actionDelete svg {
+	fill: #db4437;
+}
+
+.todoItem__actionSave svg {
+	fill: #34a853;
+}
+
+.todoItem__actionCancel svg {
+	fill: #ea4335;
+}

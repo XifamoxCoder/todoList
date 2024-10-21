@@ -1,0 +1,60 @@
+.button {
+	position: relative;
+	background: none;
+	border: none;
+	cursor: pointer;
+	width: 30px;
+	height: 30px;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0;
+	transition: background-color 0.3s;
+}
+
+.primaryButton {
+	background-color: #4285f4;
+}
+
+.secondaryButton {
+	background-color: #4285f4;
+}
+
+.accessButton {
+	background-color: #46be46;
+}
+
+.warningButton {
+	background-color: #ffcc00;
+}
+
+.errorButton {
+	background-color: #db4437;
+}
+
+.tooltip {
+	position: absolute;
+	bottom: 100%;
+	left: 50%;
+	transform: translateX(-50%);
+	background-color: rgba(0, 0, 0, 0.75);
+	color: white;
+	padding: 4px 8px;
+	border-radius: 4px;
+	white-space: nowrap;
+	font-size: 12px;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 0.2s ease-in-out;
+}
+
+.button:hover .tooltip {
+	visibility: visible;
+	opacity: 1;
+}
+
+button img {
+	width: 16px;
+	height: 16px;
+}
